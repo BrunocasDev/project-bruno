@@ -19,8 +19,10 @@
 
 <body class="container min-vh-100">
     <div class="container-fluid d-flex justify-content-center align-items-center min-vh-100">
-        <div class="w-100 max-w-md mt-6 px-6 py-4 bg-white shadow-md rounded-lg d-flex justify-content-center">
-            {{ $slot }}
+        <div class="card max-w-md mt-6">
+            <div class="card-body px-6 py-4 shadow-md rounded-lg">
+                {{ $slot }}
+            </div>
         </div>
     </div>
 </body>
