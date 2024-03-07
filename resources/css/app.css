@@ -1,0 +1,10 @@
+/* Bootstrap */
+@import "bootstrap/dist/css/bootstrap.css";
+
+body {
+    background-color: #343a40;
+}
+
+.table-custom {
+    --bs-table-bg: transparent !important;
+}
